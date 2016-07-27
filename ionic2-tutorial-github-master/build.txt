@@ -1,0 +1,72 @@
+
+
+
+==================
+0     044212   log      deviceready has not fired after 5 seconds.
+1     045189   log      Channel not fired: onPluginsReady
+2     045243   log      Channel not fired: onCordovaReady
+3     045299   log      Channel not fired: onDOMContentLoaded
+4     086372   warn     Native: deviceready did not fire within 2000ms. This can
+ happen when plugins are in an inconsistent state. Try removing plugins from plu
+gins/ and reinstalling them.
+
+5     122626   log      Angular 2 is running in the development mode. Call enabl
+eProdMode() to enable the production mode.
+6     129624   log      DEVICE READY FIRED AFTER, 56239, ms
+
+
+Application Error
+The connection to the server was unsuccessful. (http://192.168.0.4:8100)
+
+Application Error
+The connection to the server was unsuccessful. (file:///android_asset/www/index.html)
+
+
+1     614507   warn     Native: tried calling undefined.styleDefault, but Cordov
+a is not available. Make sure to include cordova.js or run in a device/simulator
+
+2     614695   group    EXCEPTION: Error: Uncaught (in promise): SyntaxError
+3     614697   error    EXCEPTION: Error: Uncaught (in promise): SyntaxError
+4     614709   error    STACKTRACE:
+5     614710   error    Error: Uncaught (in promise): SyntaxError
+   at resolvePromise (http://192.168.0.4:8100/build/js/zone.js:538:26)
+   at Anonymous function (http://192.168.0.4:8100/build/js/zone.js:574:18)
+   at ZoneDelegate.prototype.invokeTask (http://192.168.0.4:8100/build/js/zone.j
+s:354:18)
+   at onInvokeTask (http://192.168.0.4:8100/build/js/app.bundle.js:37171:25)
+   at ZoneDelegate.prototype.invokeTask (http://192.168.0.4:8100/build/js/zone.j
+s:354:18)
+   at Zone.prototype.runTask (http://192.168.0.4:8100/build/js/zone.js:256:22)
+   at drainMicroTaskQueue (http://192.168.0.4:8100/build/js/zone.js:474:26)
+   at invoke (http://192.168.0.4:8100/build/js/zone.js:426:22)
+6     614712   groupEnd
+7     614714   error    Unhandled Promise rejection:, [object Object], ; Zone:,
+angular, ; Task:, Promise.then, ; Value:, [object Object]
+0     625864   log      deviceready has not fired after 5 seconds.
+1     626094   log      Channel not fired: onPluginsReady
+2     626156   log      Channel not fired: onCordovaReady
+3     626240   log      Channel not fired: onDOMContentLoaded
+
+-----------
+0     703850   log      Angular 2 is running in the development mode. Call enabl
+eProdMode() to enable the production mode.
+1     703852   warn     Native: tried calling undefined.styleDefault, but Cordov
+a is not available. Make sure to include cordova.js or run in a device/simulator
+
+2     703955   group    EXCEPTION: Error: Uncaught (in promise): SyntaxError
+3     703957   error    EXCEPTION: Error: Uncaught (in promise): SyntaxError
+4     703958   error    STACKTRACE:
+5     703960   error    Error: Uncaught (in promise): SyntaxError
+   at resolvePromise (http://192.168.0.4:8100/build/js/zone.js:538:26)
+   at Anonymous function (http://192.168.0.4:8100/build/js/zone.js:574:18)
+   at ZoneDelegate.prototype.invokeTask (http://192.168.0.4:8100/build/js/zone.j
+s:354:18)
+   at onInvokeTask (http://192.168.0.4:8100/build/js/app.bundle.js:37171:25)
+   at ZoneDelegate.prototype.invokeTask (http://192.168.0.4:8100/build/js/zone.j
+s:354:18)
+   at Zone.prototype.runTask (http://192.168.0.4:8100/build/js/zone.js:256:22)
+   at drainMicroTaskQueue (http://192.168.0.4:8100/build/js/zone.js:474:26)
+   at invoke (http://192.168.0.4:8100/build/js/zone.js:426:22)
+6     703962   groupEnd
+7     703963   error    Unhandled Promise rejection:, [object Object], ; Zone:,
+angular, ; Task:, Promise.then, ; Value:, [object Object]
